@@ -12,9 +12,10 @@ Environment dependencies:
 
   - Install dependencies
 
-    ```shell
-    bundle install
-    ```
+  ```shell
+  bundle install
+  ```
+
   - Dotenv file
 
   ```shell
