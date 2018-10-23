@@ -13,7 +13,7 @@ module Lita
                                      .yield_self { |weather| [weather.dig("data", "temperature"), weather.dig("data", "temperature")]  }
 
       	response.reply(
-          "Está fazendo #{temperature}˚C com aquela sensação térmica de #{sensation}˚C :smile:"
+          "Está fazendo #{temperature}˚C com aquela sensação térmica de #{sensation}˚C"
         )
       end
 
