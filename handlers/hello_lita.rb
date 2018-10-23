@@ -2,7 +2,7 @@ module Lita
   module Handlers
     class HelloLita < Handler
       route(/what do you want to do today?/, :take_over_the_world, command: true,
-            help: { pink: "what do you want to do today? - replies with Pink's classic quote" }
+            help: { pink: "replies with Pink's classic quote" }
       )
 
       def take_over_the_world(response)

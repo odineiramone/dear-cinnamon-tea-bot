@@ -5,7 +5,7 @@ module Lita
       CLIMATEMPO_CITY_CODE = ENV['CLIMATEMPO_CITY_CODE']
 
       route(/weather please/, :weather, command: true,
-        help: { weather: 'weather please - replies with current weather for Sao Paulo, Brazil' })
+        help: { weather: 'replies with current weather for Sao Paulo, Brazil' })
 
       def weather(response)
         temperature, sensation = http.get("http://apiadvisor.climatempo.com.br/api/v1/weather/locale/#{CLIMATEMPO_CITY_CODE}/current?token=#{CLIMATEMPO_API_TOKEN}")
