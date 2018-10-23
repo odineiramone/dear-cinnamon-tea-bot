@@ -5,7 +5,7 @@ module Lita
       CLIMATEMPO_CITY_CODE = ENV['CLIMATEMPO_CITY_CODE']
 
       route(/weather please/, :weather, command: true,
-        help: { weather: 'replies with current weather for Sao Paulo, Brazil' })
+        help: { weather: 'weather please - replies with current weather for Sao Paulo, Brazil' })
 
       def weather(response)
         temperature, sensation = http.get("http://apiadvisor.climatempo.com.br/api/v1/weather/locale/#{CLIMATEMPO_CITY_CODE}/current?token=#{CLIMATEMPO_API_TOKEN}")
@@ -13,7 +13,7 @@ module Lita
                                      .yield_self { |weather| [weather.dig("data", "temperature"), weather.dig("data", "temperature")]  }
 
       	response.reply(
-          "Está fazendo #{temperature}˚C com aquele gostinho de #{sensation}˚C :D"
+          "Está fazendo #{temperature}˚C com aquela sensação térmica de #{sensation}˚C :smile:"
         )
       end
 
