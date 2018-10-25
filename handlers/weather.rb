@@ -21,14 +21,14 @@ module Lita
         rain_probability = forecasts_for_today.dig('rain', 'probability')
         temperature_max  = forecasts_for_today.dig('temperature', 'max')
         temperature_min  = forecasts_for_today.dig('temperature', 'min')
-        phrase           = forecasts_for_today.dig('text_icon', 'text', 'phrase', 'reduced')
 
-        text = <<~FORECAST_TEXT
-          #{phrase}
-          Temperaturas variando entre mínima de #{temperature_min}˚C e máxima de #{temperature_max}˚C e probabilidade de chuva em #{rain_probability}% 😄
-        FORECAST_TEXT
+        summary_text          = forecasts_for_today.dig('text_icon', 'text', 'phrase', 'reduced')
+        temperature_text      = "Temperaturas variando entre mínima de #{temperature_min}˚C e máxima de #{temperature_max}˚C"
+        rain_probability_text = "Probabilidade de chuva em #{rain_probability}% 😄"
 
-        response.reply(text)
+        response.reply(summary_text)
+        response.reply(temperature_text)
+        response.reply(rain_probability_text)
       end
 
       Lita.register_handler(self)
