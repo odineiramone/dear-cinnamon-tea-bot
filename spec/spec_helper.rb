@@ -1,5 +1,7 @@
 require 'lita/rspec'
 require 'webmock/rspec'
+require 'fakeredis/rspec'
+
 require 'pry'
 
 require 'support/helpers/load_fixture_helper'
