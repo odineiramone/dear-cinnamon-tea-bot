@@ -5,6 +5,7 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
+    coderay (1.1.2)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
     concurrent-ruby (1.0.5)
@@ -39,8 +40,12 @@ GEM
     lita-telegram-plus (0.1.2)
       lita (>= 4.7)
       telegram-bot-ruby
+    method_source (0.9.0)
     multi_json (1.13.1)
     multipart-post (2.0.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     puma (3.12.0)
     rack (1.6.10)
     rb-readline (0.5.5)
@@ -82,6 +87,7 @@ DEPENDENCIES
   lita
   lita-giphy
   lita-telegram-plus
+  pry
   rspec
 
 RUBY VERSION
