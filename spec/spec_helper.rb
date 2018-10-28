@@ -1,7 +1,9 @@
 require 'lita/rspec'
+require 'webmock/rspec'
 require 'pry'
 
 require 'support/helpers/load_fixture_helper'
+require 'support/helpers/client_helper'
 
 Lita.version_3_compatibility_mode = false
 
@@ -16,4 +18,5 @@ RSpec.configure do |config|
 
   config.shared_context_metadata_behavior = :apply_to_host_groups
   config.include LoadFixtureHelper
+  config.include ClientHelper
 end
