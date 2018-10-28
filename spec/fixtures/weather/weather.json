@@ -1,0 +1,17 @@
+{
+   "id":3477,
+   "name":"São Paulo",
+   "state":"SP",
+   "country":"BR  ",
+   "data":{
+      "temperature":16,
+      "wind_direction":"SSE",
+      "wind_velocity":9,
+      "humidity":82,
+      "condition":"Alguma nebulosidade",
+      "pressure":1017,
+      "icon":"2",
+      "sensation":16,
+      "date":"2018-10-28 18:32:53"
+   }
+}

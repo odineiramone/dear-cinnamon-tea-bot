@@ -1,0 +1,428 @@
+{
+   "id":3477,
+   "name":"São Paulo",
+   "state":"SP",
+   "country":"BR  ",
+   "data":[
+      {
+         "date":"2018-10-28",
+         "date_br":"28/10/2018",
+         "humidity":{
+            "min":60,
+            "max":91
+         },
+         "rain":{
+            "probability":0,
+            "precipitation":0
+         },
+         "wind":{
+            "velocity_min":17,
+            "velocity_max":23,
+            "velocity_avg":20,
+            "gust_max":41,
+            "direction_degrees":174,
+            "direction":"SSE"
+         },
+         "uv":{
+            "max":9
+         },
+         "text_icon":{
+            "icon":{
+               "dawn":"2rn",
+               "morning":"2r",
+               "afternoon":"2r",
+               "night":"2rn",
+               "day":"2r"
+            },
+            "text":{
+               "pt":"Sol com muitas nuvens",
+               "en":"Mostly cloudy.",
+               "es":"Sol con muchas nubes.",
+               "phrase":{
+                  "reduced":"Sol com muitas nuvens durante o dia e períodos de céu nublado. Noite com muitas nuvens.",
+                  "morning":"Sol com muitas nuvens",
+                  "afternoon":"Sol com muitas nuvens",
+                  "night":"Muitas nuvens",
+                  "dawn":"Muitas nuvens"
+               }
+            }
+         },
+         "temperature":{
+            "min":15,
+            "max":20,
+            "morning":{
+               "min":15,
+               "max":19
+            },
+            "afternoon":{
+               "min":18,
+               "max":20
+            },
+            "night":{
+               "min":16,
+               "max":19
+            }
+         }
+      },
+      {
+         "date":"2018-10-29",
+         "date_br":"29/10/2018",
+         "humidity":{
+            "min":51,
+            "max":95
+         },
+         "rain":{
+            "probability":0,
+            "precipitation":0
+         },
+         "wind":{
+            "velocity_min":13,
+            "velocity_max":24,
+            "velocity_avg":17,
+            "gust_max":29,
+            "direction_degrees":125,
+            "direction":"ESE"
+         },
+         "uv":{
+            "max":9
+         },
+         "text_icon":{
+            "icon":{
+               "dawn":"2rn",
+               "morning":"2r",
+               "afternoon":"2r",
+               "night":"2rn",
+               "day":"2r"
+            },
+            "text":{
+               "pt":"Sol com muitas nuvens",
+               "en":"Mostly cloudy.",
+               "es":"Sol con muchas nubes.",
+               "phrase":{
+                  "reduced":"Sol com muitas nuvens durante o dia e períodos de céu nublado. Noite com muitas nuvens.",
+                  "morning":"Sol com muitas nuvens",
+                  "afternoon":"Sol com muitas nuvens",
+                  "night":"Muitas nuvens",
+                  "dawn":"Muitas nuvens"
+               }
+            }
+         },
+         "temperature":{
+            "min":13,
+            "max":23,
+            "morning":{
+               "min":13,
+               "max":16
+            },
+            "afternoon":{
+               "min":18,
+               "max":23
+            },
+            "night":{
+               "min":17,
+               "max":21
+            }
+         }
+      },
+      {
+         "date":"2018-10-30",
+         "date_br":"30/10/2018",
+         "humidity":{
+            "min":58,
+            "max":90
+         },
+         "rain":{
+            "probability":0,
+            "precipitation":0
+         },
+         "wind":{
+            "velocity_min":2,
+            "velocity_max":23,
+            "velocity_avg":14,
+            "gust_max":30,
+            "direction_degrees":108,
+            "direction":"E"
+         },
+         "uv":{
+            "max":10
+         },
+         "text_icon":{
+            "icon":{
+               "dawn":"2n",
+               "morning":"2",
+               "afternoon":"2",
+               "night":"2n",
+               "day":"2"
+            },
+            "text":{
+               "pt":"Sol com algumas nuvens",
+               "en":"Mostly sunny.",
+               "es":"Sol con algunas nubes. No llueve.",
+               "phrase":{
+                  "reduced":"Sol com algumas nuvens. Não chove.",
+                  "morning":"Sol com algumas nuvens",
+                  "afternoon":"Sol com algumas nuvens",
+                  "night":"Algumas nuvens",
+                  "dawn":"Algumas nuvens"
+               }
+            }
+         },
+         "temperature":{
+            "min":15,
+            "max":26,
+            "morning":{
+               "min":15,
+               "max":19
+            },
+            "afternoon":{
+               "min":21,
+               "max":26
+            },
+            "night":{
+               "min":21,
+               "max":23
+            }
+         }
+      },
+      {
+         "date":"2018-10-31",
+         "date_br":"31/10/2018",
+         "humidity":{
+            "min":53,
+            "max":94
+         },
+         "rain":{
+            "probability":80,
+            "precipitation":5
+         },
+         "wind":{
+            "velocity_min":12,
+            "velocity_max":24,
+            "velocity_avg":19,
+            "gust_max":37,
+            "direction_degrees":352,
+            "direction":"NNW"
+         },
+         "uv":{
+            "max":10
+         },
+         "text_icon":{
+            "icon":{
+               "dawn":"2n",
+               "morning":"2",
+               "afternoon":"4t",
+               "night":"4tn",
+               "day":"4t"
+            },
+            "text":{
+               "pt":"Sol, pancadas de chuva e trovoadas.",
+               "en":null,
+               "es":null,
+               "phrase":{
+                  "reduced":"Sol e aumento de nuvens de manhã. Pancadas de chuva à tarde e à noite.",
+                  "morning":"Sol com algumas nuvens",
+                  "afternoon":"Sol, pancadas de chuva e trovoadas.",
+                  "night":"Muitas nuvens, chuva e raios",
+                  "dawn":"Algumas nuvens"
+               }
+            }
+         },
+         "temperature":{
+            "min":17,
+            "max":30,
+            "morning":{
+               "min":17,
+               "max":23
+            },
+            "afternoon":{
+               "min":25,
+               "max":30
+            },
+            "night":{
+               "min":25,
+               "max":28
+            }
+         }
+      },
+      {
+         "date":"2018-11-01",
+         "date_br":"01/11/2018",
+         "humidity":{
+            "min":51,
+            "max":96
+         },
+         "rain":{
+            "probability":80,
+            "precipitation":11
+         },
+         "wind":{
+            "velocity_min":16,
+            "velocity_max":29,
+            "velocity_avg":22,
+            "gust_max":60,
+            "direction_degrees":310,
+            "direction":"WNW"
+         },
+         "uv":{
+            "max":11
+         },
+         "text_icon":{
+            "icon":{
+               "dawn":"2n",
+               "morning":"2",
+               "afternoon":"4t",
+               "night":"4tn",
+               "day":"4t"
+            },
+            "text":{
+               "pt":"Sol, pancadas de chuva e trovoadas.",
+               "en":null,
+               "es":null,
+               "phrase":{
+                  "reduced":"Sol e aumento de nuvens de manhã. Pancadas de chuva à tarde e à noite.",
+                  "morning":"Sol com algumas nuvens",
+                  "afternoon":"Sol, pancadas de chuva e trovoadas.",
+                  "night":"Muitas nuvens, chuva e raios",
+                  "dawn":"Algumas nuvens"
+               }
+            }
+         },
+         "temperature":{
+            "min":19,
+            "max":28,
+            "morning":{
+               "min":22,
+               "max":25
+            },
+            "afternoon":{
+               "min":20,
+               "max":28
+            },
+            "night":{
+               "min":19,
+               "max":20
+            }
+         }
+      },
+      {
+         "date":"2018-11-02",
+         "date_br":"02/11/2018",
+         "humidity":{
+            "min":83,
+            "max":99
+         },
+         "rain":{
+            "probability":80,
+            "precipitation":6
+         },
+         "wind":{
+            "velocity_min":5,
+            "velocity_max":17,
+            "velocity_avg":14,
+            "gust_max":23,
+            "direction_degrees":146,
+            "direction":"SE"
+         },
+         "uv":{
+            "max":11
+         },
+         "text_icon":{
+            "icon":{
+               "dawn":"4rn",
+               "morning":"4r",
+               "afternoon":"4r",
+               "night":"4rn",
+               "day":"4r"
+            },
+            "text":{
+               "pt":"Sol com muitas nuvens e chuva",
+               "en":"Sun and rain.",
+               "es":"Sol con muchas nubes durante el día. Períodos de nublado, con lluvia a cualquier hora.",
+               "phrase":{
+                  "reduced":"Sol com muitas nuvens durante o dia. Períodos de nublado, com chuva a qualquer hora.",
+                  "morning":"Sol com muitas nuvens e chuva",
+                  "afternoon":"Sol com muitas nuvens e chuva",
+                  "night":"Muitas nuvens e chuva",
+                  "dawn":"Muitas nuvens e chuva"
+               }
+            }
+         },
+         "temperature":{
+            "min":17,
+            "max":22,
+            "morning":{
+               "min":17,
+               "max":22
+            },
+            "afternoon":{
+               "min":18,
+               "max":18
+            },
+            "night":{
+               "min":17,
+               "max":19
+            }
+         }
+      },
+      {
+         "date":"2018-11-03",
+         "date_br":"03/11/2018",
+         "humidity":{
+            "min":51,
+            "max":96
+         },
+         "rain":{
+            "probability":0,
+            "precipitation":0
+         },
+         "wind":{
+            "velocity_min":9,
+            "velocity_max":20,
+            "velocity_avg":15,
+            "gust_max":25,
+            "direction_degrees":108,
+            "direction":"E"
+         },
+         "uv":{
+            "max":11
+         },
+         "text_icon":{
+            "icon":{
+               "dawn":"2n",
+               "morning":"2",
+               "afternoon":"4",
+               "night":"4n",
+               "day":"4"
+            },
+            "text":{
+               "pt":"Sol e Chuva",
+               "en":"Sun and rain.",
+               "es":"Sol y aumento de nubes. Chubascos aislados en la tarde y en la noche.",
+               "phrase":{
+                  "reduced":"Sol e aumento de nuvens de manhã. Pancadas de chuva à tarde e à noite.",
+                  "morning":"Sol com algumas nuvens",
+                  "afternoon":"Sol e Chuva",
+                  "night":"Algumas nuvens e chuva",
+                  "dawn":"Algumas nuvens"
+               }
+            }
+         },
+         "temperature":{
+            "min":15,
+            "max":23,
+            "morning":{
+               "min":15,
+               "max":17
+            },
+            "afternoon":{
+               "min":19,
+               "max":23
+            },
+            "night":{
+               "min":18,
+               "max":22
+            }
+         }
+      }
+   ]
+}

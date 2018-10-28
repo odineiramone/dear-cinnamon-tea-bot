@@ -1,7 +1,8 @@
 module Lita
   module Handlers
     class Thanks < Handler
-      route(/(many thanks|thanks|obrigado)/, :thanks, command: false,
+      # This '(?i)' makes the regex ignore case sensitivity
+      route(/(?i)(many thanks|thanks|obrigado)/, :thanks, command: false,
             help: { thanks_return: "replies a random thanks" }
       )
 

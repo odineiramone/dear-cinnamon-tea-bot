@@ -1,4 +1,5 @@
 require 'dotenv/load'
+require 'pry'
 
 require './handlers/hello_lita.rb'
 require './handlers/weather.rb'
