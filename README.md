@@ -44,7 +44,7 @@ For now, the bot respond this three questions
 
   - Replies that what it is going to do today
   ```
-  Dear cinnamon tea, what do you want to do today?
+  Dear cinnamon tea, o que você quer fazer hoje?
   ```
 
   \* Available only in Brazil. You need to check your city code to configure this feature. To do this, go to Climatempo API docs, [search on API for your city](http://apiadvisor.climatempo.com.br/doc/index.html#api-Locale-GetCityByNameAndState) and then put the code in `.env` file.
