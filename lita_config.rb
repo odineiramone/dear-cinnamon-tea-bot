@@ -3,6 +3,8 @@ require 'dotenv/load'
 require './app/handlers/hello_lita.rb'
 require './app/handlers/weather.rb'
 
+require './app/models/weather.rb'
+
 Lita.configure do |config|
   config.robot.name = 'Dear Cinnamon Tea'
   config.robot.log_level = :info
