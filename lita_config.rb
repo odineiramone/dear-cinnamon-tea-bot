@@ -1,7 +1,7 @@
 require 'dotenv/load'
 
-require './handlers/hello_lita.rb'
-require './handlers/weather.rb'
+require './app/handlers/hello_lita.rb'
+require './app/handlers/weather.rb'
 
 Lita.configure do |config|
   config.robot.name = 'Dear Cinnamon Tea'

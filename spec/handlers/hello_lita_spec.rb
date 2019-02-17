@@ -1,10 +1,10 @@
-require './handlers/hello_lita'
+require './app/handlers/hello_lita'
 
 describe Lita::Handlers::HelloLita, lita_handler: true do
   it "prints Pink's classical quote" do
-    send_command('what do you want to do today?')
+    send_command('o que você quer fazer hoje?')
     expect(replies.last).to(
-      eq 'The same thing we do every night... Try to take over the world!'
+      eq 'A mesma coisa que fazemos todas as noite... Tentar dominar o mundo!'
     )
   end
 end
