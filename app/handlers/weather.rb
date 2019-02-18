@@ -6,10 +6,13 @@ module Lita
 
       def weather(response)
         current_weater = ::Weather.new
+        current_weater.build_weather
 
       	response.reply(
           "Está fazendo #{current_weater.temperature}˚C com aquele gostinho de #{current_weater.sensation}˚C"
         )
+
+        current_weater.save
       end
 
       Lita.register_handler(self)

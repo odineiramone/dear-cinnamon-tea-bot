@@ -1,12 +1,11 @@
-class Weather
+class Weather < ActiveRecord::Base
   CLIMATEMPO_API_TOKEN = ENV['CLIMATEMPO_API_TOKEN']
   CLIMATEMPO_CITY_CODE = ENV['CLIMATEMPO_CITY_CODE']
 
-  attr_reader :temperature, :sensation
-
-  def initialize
-    @temperature = current_temperature
-    @sensation   = current_sensation
+  def build_weather
+    self.temperature = current_temperature
+    self.sensation   = current_sensation
+    self
   end
 
   private

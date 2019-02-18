@@ -1,6 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activemodel (5.2.2)
+      activesupport (= 5.2.2)
+    activerecord (5.2.2)
+      activemodel (= 5.2.2)
+      activesupport (= 5.2.2)
+      arel (>= 9.0)
+    activesupport (5.2.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    arel (9.0.0)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -39,10 +51,13 @@ GEM
     lita-telegram-plus (0.1.2)
       lita (>= 4.7)
       telegram-bot-ruby
+    minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
+    pg (1.1.4)
     puma (3.12.0)
     rack (1.6.10)
+    rake (12.3.2)
     rb-readline (0.5.5)
     redis (4.0.2)
     redis-namespace (1.6.0)
@@ -60,12 +75,17 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
+    standalone_migrations (1.0.13)
+      activerecord (>= 3)
+      rake
     telegram-bot-ruby (0.8.6.1)
       faraday
       inflecto
       virtus
     thor (0.20.0)
     thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
     url_mount (0.2.1)
       rack
     virtus (1.0.5)
@@ -78,11 +98,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   dotenv
   lita
   lita-giphy
   lita-telegram-plus
+  pg
   rspec
+  standalone_migrations
 
 RUBY VERSION
    ruby 2.5.1p57

@@ -1,9 +1,15 @@
 require 'dotenv/load'
 
+require 'active_record'
+
 require './app/handlers/hello_lita.rb'
 require './app/handlers/weather.rb'
 
 require './app/models/weather.rb'
+
+template = ERB.new(File.new('./config/database.yml').read)
+db_yaml = YAML.load(template.result(binding))
+ActiveRecord::Base.establish_connection(db_yaml[ENV['CURRENT_ENV']])
 
 Lita.configure do |config|
   config.robot.name = 'Dear Cinnamon Tea'
