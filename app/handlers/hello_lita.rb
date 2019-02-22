@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class HelloLita < Handler
-      route(/o que você quer fazer hoje?/, :take_over_the_world)
+      route(/o que você quer fazer hoje\?/, :take_over_the_world)
 
       def take_over_the_world(response)
       	response.reply(
