@@ -5,6 +5,10 @@ require './handlers/hello_lita.rb'
 require './handlers/weather.rb'
 require './handlers/thanks.rb'
 
+require './app/services/current_weather_service.rb'
+
+require './app/models/current_weather.rb'
+
 Lita.configure do |config|
   config.robot.name = 'Dear Cinnamon Tea'
   config.robot.log_level = :info
