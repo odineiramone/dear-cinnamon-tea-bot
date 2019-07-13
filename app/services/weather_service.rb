@@ -11,7 +11,7 @@ class WeatherService
   private
 
   def weather
-    CurrentWeather.new(
+    Weather.new(
       temperature: response.dig('data', 'temperature'),
       sensation: response.dig('data', 'sensation')
     )

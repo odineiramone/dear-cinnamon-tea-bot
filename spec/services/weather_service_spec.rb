@@ -1,4 +1,4 @@
-require './app/models/current_weather'
+require './app/models/weather'
 require './app/services/weather_service'
 
 describe WeatherService do
@@ -9,10 +9,10 @@ describe WeatherService do
   end
 
   describe '#execute' do
-    it 'returns a CurrentWeather instance' do
+    it 'returns a Weather instance' do
       current_weather = subject.execute
 
-      expect(current_weather).to be_a(CurrentWeather)
+      expect(current_weather).to be_a(Weather)
     end
   end
 end

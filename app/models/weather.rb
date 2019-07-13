@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class CurrentWeather
+class Weather
   attr_reader :temperature, :sensation
 
   def initialize(temperature:, sensation:)
