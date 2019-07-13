@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-class CurrentWeatherService
+class WeatherService
   CLIMATEMPO_API_TOKEN = ENV['CLIMATEMPO_API_TOKEN']
   CLIMATEMPO_CITY_CODE = ENV['CLIMATEMPO_CITY_CODE']
 	
   def self.execute
-    new.send :current_weather
+    new.send :weather
   end
 
   private
 
-  def current_weather
+  def weather
     CurrentWeather.new(
       temperature: response.dig('data', 'temperature'),
       sensation: response.dig('data', 'sensation')

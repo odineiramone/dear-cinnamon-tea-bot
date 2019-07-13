@@ -1,8 +1,8 @@
 require './app/models/current_weather'
-require './app/services/current_weather_service'
+require './app/services/weather_service'
 
-describe CurrentWeatherService do
-  subject { CurrentWeatherService }
+describe WeatherService do
+  subject { WeatherService }
   before do
     response = load_json 'weather/weather.json'
     stub_weather(response: response.to_json)
