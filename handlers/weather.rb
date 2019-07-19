@@ -10,7 +10,7 @@ module Lita
       def weather(response)
         temperature, sensation = http.get("http://apiadvisor.climatempo.com.br/api/v1/weather/locale/#{CLIMATEMPO_CITY_CODE}/current?token=#{CLIMATEMPO_API_TOKEN}")
                                      .yield_self { |http_response| MultiJson.load(http_response.body) }
-                                     .yield_self { |weather| [weather.dig("data", "temperature"), weather.dig("data", "temperature")]  }
+                                     .yield_self { |weather| [weather.dig("data", "temperature"), weather.dig("data", "sensation")]  }
 
       	response.reply(
           "Está fazendo #{temperature}˚C com aquele gostinho de #{sensation}˚C :D"
